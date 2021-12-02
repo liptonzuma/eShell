@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css"
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <header className="App-header">
         Hello world
        </header>
+       <HomePage/>
     </div>
   );
 }
