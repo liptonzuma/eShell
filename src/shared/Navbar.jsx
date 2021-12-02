@@ -7,6 +7,9 @@ import {motion} from 'framer-motion/dist/framer-motion'
 
 function Navbar() {
     const [open,setOpen]= useState(false)
+    const performSearch=()=>{
+// To do
+    }
     return (
     <div>
         <nav 
@@ -25,16 +28,18 @@ function Navbar() {
                   <div 
                   onClick={()=>setOpen(!open)}
                   className='cart search cursor-pointer'>
-                    <img className='w-9'  src={search} alt="shopping cart"/>
+                    <img className='w-7'  src={search} alt="shopping cart"/>
                 </div>
                 <form className='form'>
                 <input spellCheck='true'
                  autoComplete='true' 
-                 placeholder='search laptop name' 
+                 placeholder='search laptop name or brand name' 
                  className='border p-1 rounded text-black text-gray-600'
 
                  />
                 <a
+                // Add the function
+                onClick={performSearch}
                 className="p-2 bg-red-600 rounded cursor-pointer">
                     search 
                 </a>
@@ -63,7 +68,7 @@ function Navbar() {
         <motion.div 
             animate={open?{y:0,opacity:1}:{y:-100,opacity:0}}
         className='flex justify-center mt-5'>
-        <form className=' shadow'>
+        <form className='form2 shadow'>
                 <input spellCheck='true'
                  autoComplete='true' 
                  placeholder='search laptop name' 
@@ -71,6 +76,7 @@ function Navbar() {
 
                  />
                 <a
+                onClick={performSearch}
                 className="text-white p-2 bg-red-600 rounded cursor-pointer">
                     <i className="fa fa-search"></i>
                 </a>

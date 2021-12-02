@@ -12,7 +12,9 @@ body{
 .search{
     display: none;
 }
-
+.form2{
+    display: none;
+}
 
 @media (max-width:618px) {
    .search{
@@ -20,5 +22,8 @@ body{
    }
    .form{
        display: none;
+   }
+   .form2{
+       display: block;
    }
 }
