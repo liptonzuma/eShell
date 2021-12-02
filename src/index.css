@@ -12,6 +12,8 @@ body{
 .search{
     display: none;
 }
+
+
 @media (max-width:618px) {
    .search{
        display: block;
