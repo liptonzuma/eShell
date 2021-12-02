@@ -49,14 +49,14 @@ function Navbar() {
             <div className='flex flex-row justify-around px-3'>
                 
                 {/* shopping cart */}
-                <div className='cart relative ml'>
+                <div className='cart relative ml cursor-pointer'>
                     <img className='md:w-8 w-5 mt-1'  src={wishlist} alt="shopping cart"/>
                     <p className='absolute top-1 left-5 text-center badge rounded-full text-sm md:px-2 px-1 bg-red-500 text-white'>
                         {10}
                     </p>
                 </div>
                 {/* wishlist */}
-            <div className='cart relative ml-10'>
+            <div className='cart relative ml-10 cursor-pointer'>
                     <img className='md:w-9 w-6'  src={cart} alt="shopping cart"/>
                     <p className='absolute top-0 left-5 text-center badge rounded-full text-sm md:px-2 px-1 bg-red-500 text-white'>
                         {10}
@@ -67,7 +67,7 @@ function Navbar() {
         </nav>
         <motion.div 
             animate={open?{y:0,opacity:1}:{y:-100,opacity:0}}
-        className='flex justify-center mt-24'>
+        className='flex justify-center mt-20'>
         <form className='form2 shadow'>
                 <input
                  autoComplete='true' 

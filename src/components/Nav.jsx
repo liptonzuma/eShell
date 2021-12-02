@@ -3,15 +3,10 @@ import React from 'react'
 
 function Nav() {
     return (
-        <div>
-            <nav className=' flex justify-center'>
-                <ul className='w-2/4 text-gray-700 text-lg font-medium flex items-center justify-around'>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Brands</a></li>
-                    <li><a href="#">Hot Deals</a></li>
-                    <li><a href="#">Category</a></li>
-                </ul>
-            </nav>
+        <div className='relative mt-5'>
+            <div className='absolute left-5 bottom-0'>
+                <a className='text-2xl cursor-pointer'><i className="fa fa-bars"></i></a> 
+           </div>
         </div>
     )
 }
