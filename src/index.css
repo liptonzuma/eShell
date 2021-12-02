@@ -1,12 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+@import url('https://fonts.googleapis.com/css2?family=Manjari&family=Ultra&display=swap');
 
 body{
     font-family: 'Manjari',sans-serif;
 }
 .logo{
-    font-family: 'Ultra', serif !important;
+    font-family: 'Ultra', serif;
 }

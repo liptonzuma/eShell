@@ -4,18 +4,18 @@ import { motion } from 'framer-motion/dist/framer-motion'
 function Navbar() {
     return (
         <nav 
-        className='bg-black flex justify-between py-4 px-4 text-white'>
+        className='bg-gray-900 flex justify-between py-4 px-4 text-white'>
             {/* logo */}
             <div className='logo-wrapper'>
                 {/* logo icon */}
                 <a href="/" 
-                className='text-2xl font-black'>
+                className='text-2xl font-black logo'>
                     tekki 
                 </a>
             </div>
             {/* Search box */}
             <div className='input-wrapper'>
-                <form>
+                <form className=''>
                 <input spellCheck='true'
                  autoComplete='true' 
                  placeholder='search laptop name' 
@@ -27,6 +27,10 @@ function Navbar() {
                     search 
                 </buton>
                 </form>
+            </div>
+            {/* icons */}
+            <div>
+
             </div>
 
         </nav>
