@@ -1,10 +1,11 @@
 import React from 'react'
 import {motion} from 'framer-motion/dist/framer-motion'
+import Navbar from '../shared/Navbar'
 
 function HomePage() {
     return (
         <div>
-            <motion.h1 className="text-xl text-red-400">Home</motion.h1>
+            <Navbar/>
         </div>
     )
 }
