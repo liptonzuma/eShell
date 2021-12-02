@@ -9,3 +9,7 @@ body{
 .logo{
     font-family: 'Ultra', serif;
 }
+
+@media (max-width:736px) {
+   
+}
