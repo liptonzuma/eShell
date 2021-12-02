@@ -1,0 +1,2 @@
+font-family: 'Manjari', sans-serif; for p
+font-family: 'Ultra', serif; for logo
