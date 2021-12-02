@@ -3,3 +3,9 @@ font-family: 'Ultra', serif; for logo
 
 Actions
  1. Add the performSearch functionality
+ 2. Sidenav with the brand category and filter
+ 3. hero section with the adds
+ 4. Featured products
+ 5. latest or newest products
+ 6. plus fab for a sellers 
+ 

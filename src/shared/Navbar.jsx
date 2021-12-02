@@ -8,12 +8,12 @@ import {motion} from 'framer-motion/dist/framer-motion'
 function Navbar() {
     const [open,setOpen]= useState(false)
     const performSearch=()=>{
-// To do
+    // To do
     }
     return (
     <div>
         <nav 
-        className='items-center bg-gray-900 flex justify-between py-4 px-4 text-white'>
+        className='fixed top-0 left-0 w-screen items-center bg-gray-900 flex justify-between py-4 px-4 text-white'>
             {/* logo */}
             <div className='logo-wrapper'>
                 {/* logo icon */}
@@ -31,7 +31,7 @@ function Navbar() {
                     <img className='w-7'  src={search} alt="shopping cart"/>
                 </div>
                 <form className='form'>
-                <input spellCheck='true'
+                <input
                  autoComplete='true' 
                  placeholder='search laptop name or brand name' 
                  className='border p-1 rounded text-black text-gray-600'
@@ -67,11 +67,11 @@ function Navbar() {
         </nav>
         <motion.div 
             animate={open?{y:0,opacity:1}:{y:-100,opacity:0}}
-        className='flex justify-center mt-5'>
+        className='flex justify-center mt-24'>
         <form className='form2 shadow'>
-                <input spellCheck='true'
+                <input
                  autoComplete='true' 
-                 placeholder='search laptop name' 
+                 placeholder='search laptop name or brand name' 
                  className='text-gray-600 border p-1 rounded text-black'
 
                  />
