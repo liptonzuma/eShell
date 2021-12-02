@@ -9,7 +9,14 @@ body{
 .logo{
     font-family: 'Ultra', serif;
 }
-
-@media (max-width:736px) {
-   
+.search{
+    display: none;
+}
+@media (max-width:618px) {
+   .search{
+       display: block;
+   }
+   .form{
+       display: none;
+   }
 }

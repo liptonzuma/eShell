@@ -2,6 +2,8 @@
 import React from 'react'
 import cart from '../assets/icons/shopping-cart.png'
 import wishlist from '../assets/icons/wishlist.png'
+import search from '../assets/icons/search.png'
+
 function Navbar() {
     return (
         <nav 
@@ -16,7 +18,11 @@ function Navbar() {
             </div>
             {/* Search box */}
             <div className='input-wrapper'>
-                <form className=''>
+                  {/* search  */}
+                  <div className='cart search cursor-pointer'>
+                    <img className='w-9'  src={search} alt="shopping cart"/>
+                </div>
+                <form className='form'>
                 <input spellCheck='true'
                  autoComplete='true' 
                  placeholder='search laptop name' 
@@ -31,6 +37,7 @@ function Navbar() {
             </div>
             {/* icons */}
             <div className='flex flex-row justify-around'>
+                
                 {/* shopping cart */}
                 <div className='cart relative'>
                     <img className='w-8'  src={wishlist} alt="shopping cart"/>
