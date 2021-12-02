@@ -1,2 +1,5 @@
 font-family: 'Manjari', sans-serif; for p
 font-family: 'Ultra', serif; for logo
+
+Actions
+ 1. Add the performSearch functionality
