@@ -13,7 +13,7 @@ function Navbar() {
     return (
     <div>
         <nav 
-        className='fixed top-0 left-0 w-screen items-center bg-gray-900 flex justify-between py-4 px-4 text-white'>
+        className='z-20 fixed top-0 left-0 w-screen items-center bg-gray-900 flex justify-between py-4 px-4 text-white'>
             {/* logo */}
             <div className='logo-wrapper'>
                 {/* logo icon */}
