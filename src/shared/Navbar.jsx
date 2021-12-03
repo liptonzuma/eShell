@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React ,{ useState }from 'react'
 import cart from '../assets/icons/shopping-cart.png'
-import wishlist from '../assets/icons/wishlist.png'
 import search from '../assets/icons/search.png'
 import {motion} from 'framer-motion/dist/framer-motion'
 
@@ -59,7 +58,7 @@ function Navbar() {
         </nav>
         <motion.div 
             animate={open?{y:0,opacity:1}:{y:-100,opacity:0}}
-        className='flex justify-center mt-20'>
+        className='flex justify-center relative z-50 mt-20'>
         <form className='form2 shadow'>
                 <input
                  autoComplete='true' 
