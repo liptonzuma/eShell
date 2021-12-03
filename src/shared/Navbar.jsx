@@ -47,15 +47,7 @@ function Navbar() {
             </div>
             {/* icons */}
             <div className='flex flex-row justify-around px-3'>
-                
-                {/* shopping cart */}
-                <div className='cart relative ml cursor-pointer'>
-                    <img className='md:w-8 w-5 mt-1'  src={wishlist} alt="shopping cart"/>
-                    <p className='absolute top-1 left-5 text-center badge rounded-full text-sm md:px-2 px-1 bg-red-500 text-white'>
-                        {10}
-                    </p>
-                </div>
-                {/* wishlist */}
+                {/* cart */}
             <div className='cart relative ml-10 cursor-pointer'>
                     <img className='md:w-9 w-6'  src={cart} alt="shopping cart"/>
                     <p className='absolute top-0 left-5 text-center badge rounded-full text-sm md:px-2 px-1 bg-red-500 text-white'>

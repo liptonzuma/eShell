@@ -32,3 +32,8 @@ body{
        display: block;
    }
 }
+@media (max-width:768px){
+    .nav1{
+        display: none;
+    }
+}
