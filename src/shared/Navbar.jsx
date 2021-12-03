@@ -18,7 +18,7 @@ function Navbar() {
                 {/* logo icon */}
                 <a href="/" 
                 className='text-2xl font-black logo'>
-                    teck<span className='text-red-500'>i</span>
+                    ae<span className='text-red-500'>o</span>n
                 </a>
             </div>
             {/* Search box */}
