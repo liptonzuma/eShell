@@ -2,10 +2,9 @@
 import React, { useState } from 'react'
 
 function Content() {
-    const [push,setPush]= useState(false)
     return (
         <nav className='flex justify-center'>
-            <ul className='flex justify-around gap-10'>
+            <ul className='main-nav flex justify-around gap-10 text-gray-500 py-2 font-medium text-base md:text-lg'>
                 <li><a href="">Home</a></li>
                 <li><a href="">Brands</a></li>
                 <li><a href="">Category</a></li>
