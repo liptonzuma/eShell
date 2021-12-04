@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../shared/Navbar'
+import CarouselSlider from './CarouselSlider'
 import Content from './Content'
 
 function HomePage() {
@@ -7,6 +8,7 @@ function HomePage() {
         <div>
             <Navbar/>
             <Content/>
+            <CarouselSlider/>
         </div>
     )
 }
