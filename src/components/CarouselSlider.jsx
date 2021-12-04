@@ -12,9 +12,16 @@ const images = [
 export default function CarouselSlider(){
     return(
         <Carousel
+        // showThumbs={false}
+        showStatus={false}
+        autoPlay={true}
+        infiniteLoop={true}
+
         >
-           {images.map((image,i)=><div key={i}>
-               <img className='w-full' src={image} alt="thumbnail" />
+           {images.map((image,i)=><div className='relative carousel-item' key={i}>
+               <img className='pt-20' src={image} alt="thumbnail" />
+               <p className='absolute top-0 p-2 shadow bg-red-600 m-3 text-white'>New</p>
+               <p className='text-left text-lg p-3 m-3 text-red-600 bg-gray-300  font-bold absolute bottom-24'>Price <span>$100</span></p>
            </div>)}
         </Carousel>
     )

@@ -44,6 +44,15 @@ body{
     opacity: 1;
     width:90%
 }
+.carousel-item{
+    height: 80vh !important;
+   
+    
+}
+.carousel-item img{
+    max-width: 50%;
+    
+}
 
 
 @media (max-width:618px) {
