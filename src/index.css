@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manjari&family=Ultra&display=swap');
 
 body{
-    font-family: 'Manjari',sans-serif;
+    /* font-family: 'Manjari',sans-serif; */
     background: #E5E7EB;
 }
 .logo{
@@ -21,4 +21,23 @@ body{
     top:20%;
     left: 2%;
     border-radius: 2rem;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+.imageContainer{
+    background-image: url(./assets/me.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    font-weight: 900;
+    font-size: 5rem;
+    font-family: sans-serif;
 }
