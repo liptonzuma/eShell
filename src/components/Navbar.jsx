@@ -34,7 +34,8 @@ function Navbar() {
                 </a>
             </motion.div>
 
-            <motion.div  className='w-20 invisibile lg:visible navbar bg-gray-900 text-center h-screen '>
+            {/* visible on large screens */}
+            <motion.div  className='w-20 invisible lg:visible navbar bg-gray-900 text-center h-screen '>
                 <a className='cursor-pointer text-2xl  p-2 text-center ' title='home'>
                     <i className="fa fa-home focus:text-gray-300 hover:text-gray-300 text-yellow-600 p-5"></i>
                 </a>
