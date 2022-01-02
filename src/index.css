@@ -21,6 +21,7 @@ body{
     top:20%;
     left: 2%;
     border-radius: 2rem;
+    box-shadow: 2px 2px 2px rgb(104, 65, 21);
 }
 .main{
     display: flex;

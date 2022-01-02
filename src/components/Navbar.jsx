@@ -6,10 +6,17 @@ function Navbar() {
     const [hide,setHide]= useState(false)
     return (
         <nav  className='fixed'>
-            <motion.div className="icon p-2 m-4 ml-6 lg:ml-10 icon  bg-gray-900 text-yellow-600">
-              { hide ?  <i className="fa fa-chevron-left"></i> :<i className="fa fa-chevron-right"></i>}
+            {/* toggler */}
+            <motion.div className="icon cursor-pointer p-2 m-4 ml-6 lg:ml-10 icon bg-gray-900 text-yellow-600"
+                onClick={()=>setHide(!hide)}
+                
+            >
+              { hide ?  <i className="fa fa-chevron-right"></i> :<i className="fa fa-chevron-left"></i>}
             </motion.div>
-            <motion.div className='w-20 navbar bg-gray-900 text-center h-screen '>
+            {/* nav */}
+            <motion.div
+            animate={hide?{x:-200}:{x:0} }
+             className='w-20 navbar bg-gray-900 text-center h-screen '>
                 <a className='cursor-pointer text-2xl  p-2 text-center ' title='home'>
                     <i className="fa fa-home focus:text-gray-300 hover:text-gray-300 text-yellow-600 p-5"></i>
                 </a>
