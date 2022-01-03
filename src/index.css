@@ -27,6 +27,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: sans-serif;
 
 }
 .icon{
@@ -43,4 +44,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding-top:10%;
+}
+.header{
+    font-weight: 900;
 }
