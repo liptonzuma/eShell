@@ -16,7 +16,7 @@ function Home() {
                         </motion.h1>
                </motion.div>
                {/* Image container */}
-               <motion.div>
+               <motion.div className="ImageContainer">
                    <img 
                    className='w-4/6'
                     src={coder} alt="code monkey" />
