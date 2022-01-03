@@ -27,7 +27,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 
 }
 .icon{
@@ -39,4 +38,9 @@ body{
     border-radius: 999px;
     box-shadow: 2px 2px 2px rgb(104, 65, 21);
     transition: 100ms ease;
+}
+.ImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
