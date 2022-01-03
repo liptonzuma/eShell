@@ -30,7 +30,6 @@ body{
 
 }
 .imageContainer{
-    background-image: url(./assets/me.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

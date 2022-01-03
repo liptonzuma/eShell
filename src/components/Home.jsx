@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './Navbar'
-import me from '../assets/me.png'
 
 function Home() {
     return (
@@ -10,6 +9,7 @@ function Home() {
             <div className='w-screen h-screen bg-yellow-600 main'>
                 {/* Text content */}
                 <h1 className='text-gray-200 big'>
+                    hello
                 </h1>
             
             </div>
