@@ -10,9 +10,12 @@ function Home() {
             {/* Content */}
             <div className='w-screen h-screen bg-yellow-600 main'>
                 {/* Text content */}
-               <motion.div className="textContent w-1/2 pl-56 pt-44">
+               <motion.div className="textContent w-1/2 pl-32  pt-44">
                         <motion.h1 className="text-4xl font-black text-gray-800 header">
-                            I'm Solomon Boateng
+                            I'm 
+                        </motion.h1>
+                        <motion.h1 className="pt-6 pl-4 font-black text-3xl text-gray-200 name">
+                            Solomon Boateng
                         </motion.h1>
                </motion.div>
                {/* Image container */}
